@@ -390,7 +390,7 @@ In this runbook, we will implement the PHP Mailing deployment with multi-tier ar
 ```ssh-agent bash```
 
 #### ssh-add -L    
-- (Once you run this command it will tell you if you have added some identities to SSH agen or not. If not run the bellow command to add identity or private key) 
+- (Once you run this command, it will tell you if you have added some identities to SSH agent or not. If not run the below command to add identity or private key) 
 ```ssh-add -k "Absolute Path to your Private key file on your Local"```
 
 ```ssh-add -L```
